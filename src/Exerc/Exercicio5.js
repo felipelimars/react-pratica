@@ -24,7 +24,6 @@ const Exercicio5 = () => {
   );
 };
 
-
-
+// //
 
 export default Exercicio5;
