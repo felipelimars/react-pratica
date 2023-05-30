@@ -1,4 +1,89 @@
-EXERCICIOS REACT JS
+Exercício 1:
+Crie uma lista de nomes utilizando useState e map. Em seguida, 
+filtre os nomes que contêm a letra 'a' utilizando filter e exiba-os.
+
+EXEMPLO: ["Alice", "Bob", "Carol", "David", "Eve"]
+
+Exercício 2:
+Crie uma lista de números utilizando useState e map. Em seguida, 
+filtre os números maiores que 5 utilizando filter e exiba-os.
+
+EXEMPLO: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Exercício 3:
+Crie uma lista de palavras utilizando useState e map. Em seguida,
+ verifique se a palavra "Panda" está presente na lista utilizando includes e 
+ exiba o resultado.
+
+ ["Dragão", "Cachorro", "Fada", "Panda"]
+
+ Exercício 4:
+Crie uma lista de objetos contendo nome e idade utilizando useState e map. Em seguida, 
+filtre os objetos cuja idade é menor que 18 utilizando filter e exiba-os.
+
+EXEMPLO:  { nome: "Alice", idade: 25 },
+          { nome: "Bob", idade: 17 },
+          { nome: "Carol", idade: 32 },
+          { nome: "David", idade: 14 },
+           { nome: "Eve", idade: 19 },
+
+Exercício 5:
+Crie uma lista de objetos contendo nome, idade e cidade utilizando useState e map. 
+Em seguida, filtre os objetos cuja idade é maior que 30 e a cidade seja "São Paulo"
+ utilizando filter e exiba-os.
+
+ EXEMPLO:     { nome: "Alice", idade: 25, cidade: "São Paulo" },
+              { nome: "Bob", idade: 35, cidade: "Rio de Janeiro" },
+              { nome: "Carol", idade: 40, cidade: "São Paulo" },
+              { nome: "David", idade: 28, cidade: "São Paulo" },
+              { nome: "Eve", idade: 32, cidade: "São Paulo" },          
+
+
+Exercício 6:
+Crie uma lista de números utilizando useState e map. Em seguida, 
+verifique se todos os números são pares utilizando filter e includes. Exiba o resultado.
+
+ EXEMPLO: [2, 4, 6, 8, 10]
+
+ FAÇA TAMBÉM INFEM TERNÁRIO PARA DIZER ! SE SÃO TODOS PARES OU SE POSSUE IMPAR
+
+ Exercício 7:
+
+ Crie 2 inputs um chamado nome e outro chamado EMAIL ! usando a lógica que 
+ você aprendeu de controlar os inputs ! Controle os inputs usando useState.
+ Ao termino disso ! Agora crie uma função que checa se os campos foram preenchidos
+ ao apertar um botão de enviar, porém caso estejam vazios diga que o campo esta vazio em um alert.
+ Caso os campos estejam preenchidos apareça o alerta dizendo que esta correto e com as informações.
+
+ EXEMPLO: const [nome, setNome] = useState("");
+          const [email, setEmail] = useState("");
+
+BONUS: AO FINALIZAR ATIVIDADE LEMBRE-SE DE CONCEITOS DE UX OU SEJA SE USUARIO QUISER DIGITAR
+OUTRA COISA NESSES INPUTS VAI TER APAGAR OQUE JÁ DIGITOU MANUALMENTE, ENTÃO TODA VEZ QUE VOCÊ ENVIAR
+ESSA REQUISIÇÃO, LEMBRE QUE OS CAMPOS DO INPUTS DEVEM SER ZERADOS. PARA USUARIO DIGITAR NOVAMENTE
+SEM PRECISAR APAGAR.
+
+
+Exemplo 8: 
+EXERCIO VAI USAR TODA SUA LÓGICA ATÉ AQUI LEMBRE-SE DE NÃO SE SABOTAR CONFIE NO SEU PONTENCIAL E SE DEIXE
+LEVAR VOCê CONSEGUE !!!
+
+Calculadora de IMC
+Neste exemplo, criaremos uma calculadora de Índice de Massa Corporal (IMC). O usuário informará sua altura e peso nos inputs, e ao submeter o formulário, a função calcularIMC será executada, realizando o cálculo do IMC e exibindo o resultado.
+
+DICA: 
+   const [altura, setAltura] = useState("");
+   const [peso, setPeso] = useState("");
+   const [resultado, setResultado] = useState(null);
+   
+   CALCULO:
+   
+   Desevolvido pela Organização Mundial de Saúde (OMS), o cálculo do peso ideal é feito utilizando a fórmula IMC = peso / (altura x altura).
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- EXERCICIOS REACT JS
 
 1- EXERCICIO CRIE UMA PASTA CHAMADA EXERCICIOS
 
@@ -82,3 +167,5 @@ const [users, setUsers] = useState([
 
 FILTRE USANDO STATES APENAS PESSOAS QUE TEM IDADDE MAIOR DE 25 E DEPOIS ME MOSTRE E UM
 MAP
+ -->
+

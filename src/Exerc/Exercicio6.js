@@ -3,6 +3,7 @@ import React from 'react';
 const Exercicio6 = () => {
 
   const cores = ['vermelho', 'azul', 'amarelo', 'verde', 'roxo'];
+  
   const primaryColors = cores.filter((item) => ['vermelho', 'azul', 'amarelo'].includes(item));
 
   return (

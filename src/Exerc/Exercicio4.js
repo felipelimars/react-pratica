@@ -14,7 +14,7 @@ const Exercicio4 = () => {
   return (
     <div>
       <hr></hr>
-      <h2>Exercicio 04</h2>
+      <h2>Exer 04</h2>
       {personsAge.map((item) => (
         <div key={item.id}>
           <li>{"Nome: " + item.nome + ", idade: " + item.idade}</li>
